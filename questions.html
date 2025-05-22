@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Test | Le test de la techno girl</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <script src="./js/questions.js" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <title></title>
+    </head>
+    <body>
+        <main>        
+            <h1 hidden>Test</h1>
+            <progress id="progression" value="0" max="10"> 32% </progress>
+            <form class="questionnaire" action="" method="get">
+                <fieldset id="1">
+                    <label for="q1">Quel club semble le plus amusant à rejoindre?</label>
+                    <ul>
+                        <li>
+                            <input type="radio" id="q1-reponse1" name="question1" value="a">
+                            <label for="q1-reponse1">A- un club de codage ou de mathématiques</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q1-reponse2" name="question1" value="b">
+                            <label for="q1-reponse2">B- un club d’art, de design ou de théâtre</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q1-reponse3" name="question1" value="c">
+                            <label for="q1-reponse3">C- un club de robotique ou club des fabricants</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q1-reponse4" name="question1" value="d">
+                            <label for="q1-reponse4">D- le Conseil des étudiants</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q1-reponse5" name="question1" value="e">
+                            <label for="q1-reponse5">E- le club de cybersécurité ou de sécurité</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset id="2" hidden>
+                    <label for="q2">2- Ton emploi de rêve te permettrait de:</label>
+                    <ul>
+                        <li>
+                            <input type="radio" id="q2-reponse1" name="question2" value="a"><br />
+                            <label for="q2-reponse1">A- Résoudre des défis concrets en utilisant la logique</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q2-reponse2" name="question2" value="b">
+                            <label for="q2-reponse2">B- Exprimer votre créativité et vos compétences en matière de conception</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q2-reponse3" name="question2" value="c">
+                            <label for="q2-reponse3">C- Construire une technologie cool à partir de zéro</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q2-reponse4" name="question2" value="d">
+                            <label for="q2-reponse4">D- Gérer des projets technologiques passionnants</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q2-reponse5" name="question2" value="e">
+                            <label for="q2-reponse5">E- Protéger des personnes et des données</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset id="3" hidden>
+                    <label for="q3">3- Quel mot te décrit le mieux?</label>
+                    <ul>
+                        <li><input type="radio" id="q3-reponse1" name="question3" value="a">
+                            <label for="q3-reponse1">A- Logique</label>
+                        </li>
+                        <li> <input type="radio" id="q3-reponse2" name="question3" value="b">
+                            <label for="q3-reponse2">B- Créative</label>
+                        </li>
+                        <li> <input type="radio" id="q3-reponse3" name="question3" value="c">
+                            <label for="q3-reponse3">C- Pratique</label>
+                        </li>
+                        <li><input type="radio" id="q3-reponse4" name="question3" value="d">
+                            <label for="q3-reponse4">D- Organisée</label>
+                        </li>
+                        <li><input type="radio" id="q3-reponse5" name="question3" value="e">
+                            <label for="q3-reponse5">E- Protectrice</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset id="4" hidden>
+                    <label for="q4">4- Que ferais-tu pour t'amuser le week-end?</label>
+                    <ul>
+                        <li><input type="radio" id="q4-reponse1" name="question4" value="a">
+                            <label for="q4-reponse1">A- Jouer à des jeux de stratégie ou de logique </label>
+                        </li>
+                        <li><input type="radio" id="q4-reponse2" name="question4" value="b">
+                            <label for="q4-reponse2">B- Dessiner, écrire des histoires ou créer un art </label>
+                        </li>
+                        <li><input type="radio" id="q4-reponse3" name="question4" value="c">
+                            <label for="q4-reponse3">C- Construire quelque chose ou coder un mini-project </label>
+                        </li>
+                        <li> <input type="radio" id="q4-reponse4" name="question4" value="d">
+                            <label for="q4-reponse4">D- Planifier une fête ou un événement </label>
+                        </li>
+                        <li><input type="radio" id="q4-reponse5" name="question4" value="e">
+                            <label for="q4-reponse5">E- Aider quelqu’un à installer son équipement technologique</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset id="5" hidden>
+                    <label for="q5">5- Dans une équipe pour un projet scolaire, tu serais celle qui</label>
+                    <ul>
+                        <li> 
+                            <input type="radio" id="q5-reponse1" name="question5" value="a">
+                            <label for="q5-reponse1">A- analyse les données et résout des problèmes difficiles.</label>
+                        </li>
+                        <li> 
+                            <input type="radio" id="q5-reponse2" name="question5" value="b">
+                            <label for="q5-reponse2">B- rend la présentation étonnante.</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q5-reponse3" name="question5" value="c">
+                            <label for="q5-reponse3">C- construit le projet.</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q5-reponse4" name="question5" value="d">
+                            <label for="q5-reponse4">D- coordonne et motive le groupe.</label>
+                        </li>
+                        <li> 
+                            <input type="radio" id="q5-reponse5" name="question5" value="e">
+                            <label for="q5-reponse5">E- assure le bon fonctionnement du système</label>
+                    </ul>
+                </fieldset>
+                <fieldset id="6" hidden>
+                    <label for="q6">6- Tu construis un site web. Quelle est ta partie préférée?</label>
+                    <ul>
+                        <li>
+                            <input type="radio" id="q6-reponse1" name="question6" value="a">
+                            <label for="q6-reponse1">A- Planifier le fonctionnement des fonctionnalités</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q6-reponse2" name="question6" value="b">
+                            <label for="q6-reponse2">B- Concevoir le look and expérience</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q6-reponse3" name="question6" value="c">
+                            <label for="q6-reponse3">C- Coder les fonctionnalités interactives</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q6-reponse4" name="question6" value="d">
+                            <label for="q6-reponse4">D- Organiser la structure et le calendrier des échéances</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q6-reponse5" name="question6" value="e">
+                            <label for="q6-reponse5">E- Sécuriser le site contre les attaques</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset id="7" hidden>
+                    <label for="q7">7- Quel genre de technologie t'excites le plus?</label>
+                    <ul class="">
+                        <li>
+                            <input type="radio" id="q7-reponse1" name="question7" value="a">
+                            <label for="q7-reponse1">A- l'intelligence artificielle et l'automatisation</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q7-reponse2" name="question7" value="b">
+                            <label for="q7-reponse2">B- les outils de conception graphique et les logiciels d’animation</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q7-reponse3" name="question7" value="c">
+                            <label for="q7-reponse3">C- les nouveaux gadgets et la robotique</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q7-reponse4" name="question7" value="d">
+                            <label for="q7-reponse4">D- les outils et tableaux de bord de gestion de projet</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q7-reponse5" name="question7" value="e">
+                            <label for="q7-reponse5">E- les outils de sécurité et les applications de protection des renseignements personnels</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset id="8" hidden>
+                    <label for="q8">8- Comment abordes-tu l’apprentissage d'une nouvelle connaissance?</label>
+                    <ul>
+                        <li>
+                            <input type="radio" id="q8-reponse1" name="question8" value="a">
+                            <label for="q8-reponse1">A- Tu lis et fais tes recherches approfondies.</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q8-reponse2" name="question8" value="b">
+                            <label for="q8-reponse2">B- Tu l'essaies visuellement ou de manière créative.</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q8-reponse3" name="question8" value="c">
+                            <label for="q8-reponse3">C- Tu expérimentes jusqu’à ce que ça marche.</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q8-reponse4" name="question8" value="d">
+                            <label for="q8-reponse4">D- Tu prends des notes et crées un plan.</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q8-reponse5" name="question8" value="e">
+                            <label for="q8-reponse5">E- Tu t'assures que cela est fait correctement et en toute sécurité.</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset id="9" hidden>
+                    <label for="q9">9- Quel genre de vidéos aimes-tu le plus ?</label>
+                    <ul>
+                        <li>
+                            <input type="radio" id="q9-reponse1" name="question9" value="a">
+                            <label for="q9-reponse1">A- les documentaires ou les documentaristes scientifiques</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q9-reponse2" name="question9" value="b">
+                            <label for="q9-reponse2">B- le bricolage ou l'art numérique</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q9-reponse3" name="question9" value="c">
+                            <label for="q9-reponse3">C- les piratages techniques ou constructions technologiques</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q9-reponse4" name="question9" value="d">
+                            <label for="q9-reponse4">D- les conseils sur la planification de la vie, la motivation ou la productivité</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q9-reponse5" name="question9" value="e">
+                            <label for="q9-reponse5">E- les conseils sur les crimes ou les mystères</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset id="10" hidden>
+                    <label for="q10">10- Quel est ton rôle idéal dans un projet en équipe?</label>
+                    <ul>
+                        <li>
+                            <input type="radio" id="q10-reponse1" name="question10" value="a">
+                            <label for="q10-reponse1">A- Le chercheur qui rassemble les faits et chiffres</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q10-reponse2" name="question10" value="b">
+                            <label for="q10-reponse2">B- Le créateur qui donne vie à la vision</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q10-reponse3" name="question10" value="c">
+                            <label for="q10-reponse3">C- Le technicien qui s’assure que tout fonctionne</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q10-reponse4" name="question10" value="d">
+                            <label for="q10-reponse4">D- Le leader qui fixe les délais et les objectifs</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q10-reponse5" name="question10" value="e">
+                            <label for="q10-reponse5">E- Le vérificateur de la qualité qui assure qu’il est sûr et précis</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <button type="button" class="bouton" id="reveler" hidden>Révéler les résultats</button>
+            </form>
+        </main>
+    </body>
+</html>

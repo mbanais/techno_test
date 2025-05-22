@@ -1,0 +1,63 @@
+{
+    "a": {
+        "lettre": "A",
+        "personnalite": "L'analyste",
+        "description": "Tu es une résolveuse de problèmes logique qui aime comprendre comment les choses fonctionnent. Tu aimes analyser des situations, découvrir des modèles et prendre des décisions fondées sur les données. Lorsque tu es confrontée à un défi, tu restes calme et concentrée, en utilisant ton esprit vif pour trouver des solutions. Tu es curieuse, attentive aux détails et aimes apprendre de nouvelles choses, en particulier lorsqu’il s’agit de sciences, de mathématiques ou de technologie. Tu t'épanouiras dans une carrière où la réflexion approfondie et l’innovation des solutions intelligentes sont essentielles.",        
+        "image": "personnalite_b.jpg",
+        "metiers": [
+            "Ingénieure logicielle",
+            "Analyste de données",
+            "Chercheuse en IA",
+            "Développeuse web"
+        ]
+    },
+    "b": {
+        "lettre": "B",
+        "personnalite": "La créative",
+        "description": "Tu es imaginative, expressive et plein d’idées qui attendent d’être concrétisées. Que ce soit à travers des visuels, des histoires ou du design, tu aimes utiliser la créativité pour connecter avec les autres. Tu vois la beauté dans les détails et apprécies de rendre les espaces numériques accueillants et excitants. Les gens sont attirés par ton originalité et ta capacité à sortir des sentiers battus. Une carrière alliant technologie et créativité te permettra de briller.",        
+        "image": "personnalite_b.jpg",
+        "metiers": [
+            "Designer UX/UI",
+            "Graphiste",
+            "Rédactrice web",
+            "Community Manager"
+        ]
+    },
+    "c": {
+        "lettre": "C",
+        "personnalite": "La bâtisseuse",
+        "description": "Tu es pragmatique et aimes faire fonctionner les choses. Que tu assembles du matériel technologique, écrives du code ou testiez de nouvelles idées, tu dois retrousser tes manches et le faire. Tu aimes expérimenter, dépanner et améliorer les systèmes jusqu’à ce qu’ils soient parfaits. Tu es la personne de référence pour résoudre les problèmes techniques et faire en sorte que tout se passe bien. Une carrière où tu peux construire et bricoler tous les jours est parfaite pour toi.",        
+        "image": "personnalite_c.png",
+        "metiers": [
+            "Ingénieure en mécanique",
+            "Technicienne en électronique",
+            "Développeuse de jeux vidéo",
+            "Ingénieure réseau"
+        ]
+    },
+    "d": {
+        "lettre": "D",
+        "personnalite": "La meneuse",
+        "description": "Tu es un organisatrice née qui aime motiver les gens et faire des projets. Tu aimes travailler avec des équipes, fixer des objectifs et voir les projets du début à la fin. Tu es fiable, stratégique et as la capacité naturelle de diriger et d’inspirer les autres. Même si tu aimes la technologie, tu es particulièrement attirée par la façon dont elle peut être utilisée pour aider les gens à collaborer et à réussir. Les carrières qui combinent des compétences humaines avec la planification de projets sont idéales pour toi.",        
+        "image": "personnalite_d.png",
+        "metiers": [
+            "Chef de projet",
+            "Responsable marketing digital",
+            "Consultante en stratégie",
+            "Directrice de la communication",
+            "Tech-entrepreneuse"
+        ]
+    },
+    "e": {
+        "lettre": "E",
+        "personnalite": "La protectrice",
+        "description": "Tu t'intéresses beaucoup à la sécurité, à la fiabilité et à aider les autres à rester protégés dans un monde numérique. Tu as un sens aigu des responsabilités et tu sais repérer les risques avant qu’ils ne deviennent des problèmes. Tes amis te font confiance pour garder les choses en ordre et s’assurer que rien ne se passe mal. Tu es celle qui vérifie tout et sait comment rester calme sous pression. Les carrières technologiques axées sur la défense, le soutien et la stabilité te conviendraient parfaitement.",        
+        "image": "personnalite_e.png",
+        "metiers": [
+            "Ingénieure en cybersécurité",
+            "Analyste de la sécurité informatique",
+            "Responsable de la conformité",
+            "Auditrice en sécurité des systèmes d'information"
+        ]
+    }
+}

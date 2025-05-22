@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+}
+
+/** STYLES GÉNÉRAUX **/
+h1{
+    font-family: 'Climate Crisis', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+h3{
+    font-size: 24px;
+}
+.bouton{
+    background-color: #D79E33;
+    color: white;
+    font-weight: medium;
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+/** PAGE D'ACCUEIL **/
+.mainAccueil{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+@media (min-width: 600px) {
+   .mainAccueil{
+    width: 60%;
+   }    
+}
+@media (min-width: 900px) {
+   .mainAccueil{
+    width: 50%;
+   }
+}
+.mainAccueil h1,
+.mainAccueil p,
+.mainAccueil a{
+    margin: .5em 0 .5em 10px;
+}
+
+
+/*** QUESTIONNAIRE ***/
+header #file{
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+#progression{
+    width: 100vw;
+    height: 20px;
+    position: sticky;
+    top: 0;
+    display: block;
+    background-color: #000;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #d9d9d9;
+  overflow: hidden;
+}
+
+progress::-webkit-progress-value {
+  background-color: #fbbce0;
+}
+
+form fieldset {
+    height: 100vh; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form fieldset label:nth-child(1){
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+@media (min-width: 600px) {
+    form fieldset ul{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }    
+}
+@media (min-width: 600px) {
+    form fieldset ul li{
+        flex: 1 0 40%;
+        margin: 10px 5px;
+    }
+    form fieldset ul li:nth-child(5){
+        flex: 0 1 50%;
+    }
+}
+form fieldset ul li input{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;   
+}
+form fieldset ul li label{
+    display: block;
+    width: 100%;
+    padding: 16px 10px;
+    border: black 1px solid;
+}
+form fieldset ul li label:hover{
+    background-color: rgb(212, 29, 132, .2);
+ 
+}
+form fieldset ul li input:checked + label{
+    background-color: #D41D84;
+    border: #D41D84 1px solid;
+    color: white;   
+}
+
+
+
+/** RÉSULTATS **/
+.mainResultat{
+    margin: 0 10px;
+}
+
+@media (min-width: 600px) {
+    .mainResultat{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: auto;
+    }  
+    .mainResultat .illustration{
+        width: 100%;
+        margin: 10px 5px;
+    } 
+    .mainResultat .sectionResultat{
+        flex: 0 1 40%;
+        margin: 10px 5px;
+    }  
+}
+@media(min-width:900px){
+    .mainResultat{
+        margin: 0 15%;
+    }
+}
+
+
