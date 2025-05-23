@@ -28,11 +28,11 @@ h3{
 .mainAccueil{
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: flex-start;
 }
-@media (min-width: 600px) {
+/*@media (min-width: 600px) {
    .mainAccueil{
     width: 60%;
    }    
@@ -44,7 +44,39 @@ h3{
 }
 .mainAccueil h1,
 .mainAccueil p,
-.mainAccueil a{
+.mainAccueil a{*/
+
+@media (min-width: 900px) {
+   .mainAccueil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   }
+
+   .mainAccueil .sectionAccueil,
+   .mainAccueil .animation{
+    flex: 0 1 50%;
+   }
+}
+
+.mainAccueil .animation{
+    max-width: 100%;
+}
+
+
+.sectionAccueil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0 1em;
+}
+
+
+.sectionAccueil h1,
+.sectionAccueil p,
+.sectionAccueil a{
     margin: .5em 0 .5em 10px;
 }
 

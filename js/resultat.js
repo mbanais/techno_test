@@ -36,7 +36,7 @@ function insererInfos(resultats){
     document.querySelector(".description").textContent = `${resultats[strLettre].description}`;
 
     // Insérer l'image
-    document.querySelector(".illustration").src = `../images/${resultats[strLettre].image}`;
+    document.querySelector(".illustration").src = `./images/${resultats[strLettre].image}`;
 
     // Créer la liste des métiers associés
     let ul = document.createElement("ul");
